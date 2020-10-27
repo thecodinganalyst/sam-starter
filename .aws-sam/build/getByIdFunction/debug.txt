@@ -1,0 +1,9 @@
+2020-10-27T14:58:50.257Z	undefined	INFO	env - Local
+2020-10-27T14:58:50.267Z	undefined	INFO	endpoint - http://dynamodb-local:8000
+[32mSTART RequestId: 6b68c15d-858c-1d9b-1211-b83510aae5e9 Version: $LATEST[0m
+2020-10-27T14:58:51.777Z	6b68c15d-858c-1d9b-1211-b83510aae5e9	INFO	received: { httpMethod: 'POST', body: '{"id": "id1","name": "name1"}' }
+2020-10-27T14:58:51.915Z	6b68c15d-858c-1d9b-1211-b83510aae5e9	INFO	response from: undefined statusCode: 200 body: {"id":"id1","name":"name1"}
+[32mEND RequestId: 6b68c15d-858c-1d9b-1211-b83510aae5e9[0m
+[32mREPORT RequestId: 6b68c15d-858c-1d9b-1211-b83510aae5e9	Init Duration: 1773.42 ms	Duration: 150.70 ms	Billed Duration: 200 ms	Memory Size: 128 MB	Max Memory Used: 50 MB	[0m
+
+{"statusCode":200,"body":"{\"id\":\"id1\",\"name\":\"name1\"}"}

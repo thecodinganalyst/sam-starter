@@ -1,0 +1,1 @@
+sam local invoke putItemFunction --event ../events/event-post-item.json --env-vars ../env.json --parameter-overrides 'ParameterKey=Environment,ParameterValue=Local ParameterKey=DynamodbEndpoint,ParameterValue=http://dynamodb-local:8000' --docker-network docker_sam-local -t ../template.yml

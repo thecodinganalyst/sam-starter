@@ -1,0 +1,7 @@
+[32mSTART RequestId: 14da7524-d04c-12f2-e04b-ae7bbf83613b Version: $LATEST[0m
+2020-10-27T15:02:34.465Z	14da7524-d04c-12f2-e04b-ae7bbf83613b	INFO	received: { httpMethod: 'GET', pathParameters: { id: 'id1' } }
+2020-10-27T15:02:34.570Z	14da7524-d04c-12f2-e04b-ae7bbf83613b	INFO	response from: undefined statusCode: 200 body: {"name":"name1","id":"id1"}
+[32mEND RequestId: 14da7524-d04c-12f2-e04b-ae7bbf83613b[0m
+[32mREPORT RequestId: 14da7524-d04c-12f2-e04b-ae7bbf83613b	Init Duration: 1768.56 ms	Duration: 118.22 ms	Billed Duration: 200 ms	Memory Size: 128 MB	Max Memory Used: 50 MB	[0m
+
+{"statusCode":200,"body":"{\"name\":\"name1\",\"id\":\"id1\"}"}
